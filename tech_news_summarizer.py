@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 
 # ── CONFIG ──────────────────────────────────────────────────────────────────
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-EMAIL_ADDRESS = "jabr.e.hijr@gmail.com"
+EMAIL_ADDRESS = "bgmicrake@gmail.com"
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 SAVE_FOLDER   = r"D:\automation"
 # ────────────────────────────────────────────────────────────────────────────
