@@ -6,10 +6,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # ── CONFIG ──────────────────────────────────────────────────────────────────
-GROQ_API_KEY = "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"
-
-EMAIL_ADDRESS = "bgmicrake@gmail.com"  # <-- fill this in
-EMAIL_PASSWORD = "brzqsauygvalwctj"   # <-- fill this in
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+EMAIL_ADDRESS = "jabr.e.hijr@gmail.com"
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 SAVE_FOLDER   = r"D:\automation"
 # ────────────────────────────────────────────────────────────────────────────
 
