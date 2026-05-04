@@ -130,7 +130,6 @@ def main():
     articles  = fetch_news()
     summary   = summarize_news(articles)
     subject   = generate_subject(summary)
-    save_to_file(subject, summary)
     send_email(subject, summary)
     print("\n===== Done! =====\n")
 
